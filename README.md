@@ -15,33 +15,57 @@
 ## 🛠️ My Skills
 
 ### 👉 Programming languages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Lenguajes Web</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f0f5;
+      padding: 40px;
+      text-align: center;
+    }
 
-<p align="left"> 
-  &emsp; 
-  <a href="https://www.cprogramming.com/" target="_blank"> 
-    <img alt="C" src="https://img.shields.io/badge/C%20-%232370ED.svg?logo=c&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> 
-    <img alt="C++" src="https://img.shields.io/badge/C++%20-%2300599C.svg?logo=c%2B%2B&logoColor=white">
-  </a> 
-  &emsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> 
-     <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?logo=javascript&logoColor=black">
-   </a>
-  &emsp;
-  <a href="https://www.java.com" target="_blank"> 
-    <img alt="Java" src="https://img.shields.io/badge/Java-%23007396.svg?logo=java&logoColor=white">
-  </a>
-  &emsp;
-   <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python%20-%2314354C.svg?logo=python&logoColor=white">
-  </a>
-  &emsp;
-  <a href="https://www.php.net/">
-    <img alt="PHP" src="https://img.shields.io/badge/PHP-%23777BB4.svg?logo=php&logoColor=white"/>
-  </a>
-</p>
+    .badge-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.3s ease;
+    }
+
+    .badge:hover {
+      transform: scale(1.1);
+    }
+
+    .html { background-color: #E34F26; }
+    .css  { background-color: #1572B6; }
+    .js   { background-color: #F7DF1E; color: black; }
+  </style>
+</head>
+<body>
+
+  <h1>Lenguajes Web que Amo 💖</h1>
+
+  <div class="badge-container">
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank" class="badge html">HTML</a>
+    <a href="https://developer.mozilla.org/es/docs/Web/CSS" target="_blank" class="badge css">CSS</a>
+    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank" class="badge js">JavaScript</a>
+  </div>
+
+</body>
+</html>
 
 ### 👉 Frontend Development
 <p align="left"> 
